@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import Say from './Say';
+import EventPractice from './EventPractice';
 
 function App() {
   return (
     <div>
-      <Say message="wow"></Say>
+      <EventPractice />
     </div>
   );
 }
