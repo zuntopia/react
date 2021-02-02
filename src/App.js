@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import EventPractice from './EventPractice';
+import ValidationSample from './ValidationSample';
 
 function App() {
   return (
     <div>
-      <EventPractice />
+      <ValidationSample />
     </div>
   );
 }
