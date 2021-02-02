@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
 
-const Say = () => {
-  const [message, setMessage] = useState('');
+const Say = props => {
+  const [message, setMessage] = useState(props.message);
   const onClickEnter = () => setMessage('Hello');
   const onClickLeave = () => setMessage('Bye');
 
   const [color, setColor] = useState('black');
-
   return (
     <div>
       <button onClick={onClickEnter}> Enter </button>
